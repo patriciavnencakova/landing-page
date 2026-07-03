@@ -1,0 +1,85 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 200px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+    margin-left: 200px;
+}
+
+a, .title-subtext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top {
+    display: flex;
+    background: #1F2937;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    max-width: 405px;
+}
+
+.right {
+    display: flex;
+    margin-right: 200px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/* .trees {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+} */
+
+.img-placeholder {
+    display: flex;
+    color: #F9FAF8;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.top-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 0;
+    max-width: 100px;
+}
+

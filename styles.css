@@ -33,6 +33,11 @@ a, .title-subtext {
     color: #E5E7EB;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .top {
     display: flex;
     background: #1F2937;
@@ -86,6 +91,7 @@ a, .title-subtext {
 .middle-1 {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .randoms {
@@ -100,14 +106,13 @@ a, .title-subtext {
     align-items: center;
     font-size: 36px;
     color: #1F2937;
-    padding: 40px;
+    padding-bottom: 30px;
 }
 
 .random {
     display: flex;
     flex-direction: column;
     width: 150px;
-    height: 150px;
     align-items: center;
     gap: 5px;
 }
@@ -122,3 +127,22 @@ a, .title-subtext {
     color: #1F2937; 
     text-align: center;
 }
+
+.middle-2 {
+    padding: 70px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    margin-left: 230px;
+    margin-right: 230px;
+    text-align: left;
+    font-style: italic;
+}
+
+ .author {
+    text-align: right;
+    margin-right: 230px;
+} 

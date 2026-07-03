@@ -83,3 +83,42 @@ a, .title-subtext {
     max-width: 100px;
 }
 
+.middle-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.randoms {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    gap: 5px;
+}
+
+.empty {
+    border: solid #3882F6;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.text-under {
+    color: #1F2937; 
+    text-align: center;
+}
